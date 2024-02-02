@@ -128,3 +128,80 @@ border-radius: 5px;
 color: white;
 margin-top: 1.5rem;
 }
+
+.cardOne,
+.cardTwo,
+.cardThree,
+.cardFour {
+border-top: 8px solid rgba(192, 192, 192, 0.354);
+padding: 50px;
+}
+
+.cardOne, .cardThree{
+
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 50% 40%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px;
+}
+
+.descOne{
+  padding-left: 80px;
+
+}
+
+.cardOne video {
+  position: relative;
+  width: 100%;
+  height: 55%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+z-index: -1;
+right: 20px;
+bottom: 10px;
+}
+
+.cardThree video{
+  position: relative;
+  width: 65%;
+  height: 50%;
+  grid-column: 2/2;
+  grid-row: 1/2;
+z-index: -1;
+left: 110px;
+bottom: 80px;
+}
+
+
+
+
+.cardOne img, .cardThree img {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.cards h2{
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.cards p{
+  font-size: 1.6rem;
+line-height: 2rem;
+}
+
+.cardTwo, .cardFour{
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: 40% 50%;
+  text-align: left;
+  align-items: center;
+  padding: 25px 45px;
+}
+
+section{
+  width: 100%;
+}
