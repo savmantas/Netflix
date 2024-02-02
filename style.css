@@ -1,73 +1,42 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
 
-  body {
-    background-color: black;
-    color: white;
-  }
+.navbar{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  z-index: 10;
+}
 
-  .navbar {
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3% 15%;
-    z-index: 10;
-  }
+.navbarNetflix{
+  width: 125px;
+  height: 100%;
+}
 
-  .navbarBrand {
-    width: 8rem;
-    height: 100%;
-  }
+.navbarNavItems{
+  display: flex;
+  gap: 10px;
+}
 
-  .brandLogo {
-    width: 100%;
-    height: 100%;
-  }
+.netflixLogo{
+  width: 100%;
+  height: 100%;
+}
 
-  .languageDropDown {
-    background: transparent;
-    border: none;
-    color: white;
-    width: 7rem;
-  }
-
-   option{
-    color: black;
-  }
-
-
-
-  .dropdown {
-    border: 1px solid white;
-    padding: 0.4rem;
-    border-radius: 4px;
-    background: rgba(0, 0, 0, 0.4);
-  }
-
-  .signInButton {
-    border: none;
-    background-color: #dc030f;
-    color: white;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    height: 82%;
-    width: 5rem;
-  }
-
-  .signInButton:hover{
-    background-color: #960209;
-    cursor: pointer;
-
-  }
-
-  .navbarNavItems {
-    display: flex;
-    gap: 2rem;
-    color: black;
-  }
+.languageDropdown{
+  background: transparent;
+  border: none;
+  color: white;
+}

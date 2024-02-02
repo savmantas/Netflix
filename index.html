@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Lithuania - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
-    <head>
-    </head>
-
+</head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="navbarBrand">
-                <img src="assets/Netflix_2015_logo.svg" class="brandLogo" />
-            </div>
-            <div class="navbarNavItems">
-                <div class="navItem">
-                    <div class="dropdown">
-                        <select class="languageDropDown">
-                            <option>English</option>
-                            <option>Русский</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="navItem">
-                    <button class="signInButton">Sign in</button>
+<header>
+    <nav class="navbar">
+        <div class="navbarNetflix">
+            <img class="netflixLogo" src="assets/Netflix_2015_logo.svg" alt="Netflix logo">
+        </div>
+        <div class="navbarNavItems">
+            <div class="navItem">
+                <div class="dropdownContainer">
+                    <select class="languageDropdown" name="languages" id="languagesSelect">
+                        <option value="english" selected>English</option>
+                        <option value="russian">Русский</option>
+                    </select>
                 </div>
             </div>
-        </nav>
-    </header>
+            <div class="navItem">
+                <button class="signInButton">Sing In</button>
+            </div>
+
+        </div>
+    </nav>
+</header>
 
 
 
@@ -38,8 +35,6 @@
 
 
 
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
