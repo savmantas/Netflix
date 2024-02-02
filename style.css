@@ -10,7 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.navbar{
+.navbar {
   position: absolute;
   top: 0;
   width: 100%;
@@ -20,23 +20,89 @@ body {
   z-index: 10;
 }
 
-.navbarNetflix{
+.navbarNetflix {
   width: 125px;
   height: 100%;
 }
 
-.navbarNavItems{
+.navbarNavItems {
   display: flex;
-  gap: 10px;
+  gap: 1.5rem;
 }
 
-.netflixLogo{
+.netflixLogo {
   width: 100%;
   height: 100%;
 }
 
-.languageDropdown{
+.languageDropdown {
   background: transparent;
   border: none;
   color: white;
+}
+
+.dropdownContainer img {
+  width: 20px;
+  height: 15px;
+}
+
+.dropdownContainer {
+  border: 1px solid white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  background: black;
+}
+
+.signInButton {
+  background-color: red;
+  border: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  height: 35px;
+  width: 100px;
+}
+
+.heroImageContainer{
+  width: 100%;
+  height: 100%;
+}
+
+.heroImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bgOverlay{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0,0, 0.4);
+}
+
+.heroCard{
+
+  position: absolute;
+  top: 20%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+
+.heroTitle{
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.heroSubtitle {
+font-weight: 400;
+font-size: 1.3rem;
+}
+.heroDescription{
+  font-weight: 300;
+font-size: 1.1rem;
 }

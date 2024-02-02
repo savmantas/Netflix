@@ -1,40 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Lithuania - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-    <nav class="navbar">
-        <div class="navbarNetflix">
-            <img class="netflixLogo" src="assets/Netflix_2015_logo.svg" alt="Netflix logo">
-        </div>
-        <div class="navbarNavItems">
-            <div class="navItem">
-                <div class="dropdownContainer">
-                    <select class="languageDropdown" name="languages" id="languagesSelect">
-                        <option value="english" selected>English</option>
-                        <option value="russian">Русский</option>
-                    </select>
+    <header>
+        <nav class="navbar">
+            <div class="navbarNetflix">
+                <img class="netflixLogo" src="assets/Netflix_2015_logo.svg" alt="Netflix logo">
+            </div>
+            <div class="navbarNavItems">
+                <div class="navItem">
+                    <div class="dropdownContainer">
+                        <i><img src='./assets/language-translation-svgrepo-com.svg'></i>
+                        <select class="languageDropdown" name="languages" id="languagesSelect">
+                            <option value="english" selected>English</option>
+                            <option value="russian">Русский</option>
+                        </select>
+                    </div>
                 </div>
+                <div class="navItem">
+                    <button class="signInButton">Sing In</button>
+                </div>
+
             </div>
-            <div class="navItem">
-                <button class="signInButton">Sing In</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="heroImageContainer">
+                <img class="heroImage" src="assets/LT-en-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg">
             </div>
+            <div class="bgOverlay"></div>
+            <div class="heroCard">
+                <h1 class="heroTitle">Unlimited movies, TV shows, and more</h1>
+                <h2 class="heroSubtitle">Watch anywhere. Cancel anytime.</h2>
+                <p class="heroDescription">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+        </section>
+    </main>
 
-        </div>
-    </nav>
-</header>
 
 
 
 
 
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
